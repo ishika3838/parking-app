@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKIT parking system</title>
+    <link rel="stylesheet" href="./style/style.css" />
+    <script src="/script/app.js" type="module"></script>
+</head>
+<body><header>
+    <h1>
+        SKIT Parking System
+    </h1>
+</header>
+<main>
+    <form>
+        <h1>User registration</h1>
+        <input type="text" name="" id="userName" placeholder="Name" required pattern="[A-Za-z]+">
+        <input type="text" name="" id="userContact" placeholder="Contact no" required pattern="[0-9]{10}">
+        <div id="gender"><label>Gender:<label><input type="radio" name="gender" value="Male">Male<input type="radio" name="gender" value="Female">Female</div>
+        
+        <select id="userRole">
+            <option disabled selected>--Type of user--</option>
+            <option value="student">Student</option>
+            <option value="faculty">Faculty</option>
+        </select>
+        <input type="submit" id="usersubmitbutton" value="Register">
+        
+    </form>
+<form  action="" id="vehicle">
+    <h1>Vehicle</h1>
+    <input type="text" name="" id="vehicleName" placeholder="Registration no" required pattern="{A-Z}{2}{0-9}{2}{A-Z}{2}{0-9}{4}">
+   
+    <select id="type">
+        <option disabled selected value="vehicle type">Type of vehicle</option>
+        <option value="cycle" >cycle</option>
+        <option value="bike" >Bike</option>
+        <option value="car" >car</option>
+    </select>
+    <input type="submit" id="vehiclesubmitbutton" value="Submit">
+</form>
+
+    <form action="" id="passchoice">
+         <h1>pass choice</h1>
+         <!--
+        <input type="button" value="dailypass">
+        <input type="button" value="monthlypass">
+        <input type="button" value="yearlypass">
+</form>-->
+     
+    <div id="ticket">
+        <!--
+        <div>
+            <label>Pass id</label>
+            <label>................</label>
+        </div>
+        <div>
+            <label>Vehicle id<label>
+            <label>................</label>
+        </div>
+        <div>
+            <label>Owner's name</label>
+            <label>................</label>
+        </div>
+        <div>
+            <label>Expiry</label>
+            <label>................</label>
+       </div>
+         -->    
+    </div>
+ 
+</main>
+    <footer>
+        <h1>&parking app</h1>
+    </footer>
+</body>
+
+    
+      
+
+</html>
+ 
